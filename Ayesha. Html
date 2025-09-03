@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Lavender Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">AS</div>
+        <div>
+          <div class="small-text">Hi, I'm</div>
+          <h1>Ayesha Siddiqa</h1>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+<ssectionection class="hero">
+      <div class="hero-card intro">
+        <h2 class="title">Frontend Developer & Designer</h2>
+        <p class="muted">I create beautiful, accessible, and responsive websites. I love lavender vibes and clean UI.</p>
+        <div class="buttons">
+          <a class="btn-outline" href="#projects">See Projects</a>
+          <a class="btn-outline" href="#contact">Hire Me</a>
+        </div>
+        <div class="skills"><strong>Skills:</strong> HTML • CSS • JavaScript • React</div>
+      </div>
+
+      
+         <div><div class="label">Location</div><div class="muted">India</div></div>
+          <div><div class="label">Email</div><div class="muted">ayesha@gmail.com</div></div>
+        </div>
+      </aside>
+    </section>
+<section id="projects">
+      <h2 class="subtitle">My Projects</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>Portfolio Template</h3>
+          <p class="muted">Responsive, simple, and stylish portfolio template.</p>
+          <div class="tags">HTML • CSS • JS</div>
+        </article>
+        <article class="project">
+          <h3>Weather Widget</h3>
+          <p class="muted">Lightweight JavaScript weather widget with smooth animation.</p>
+          <div class="tags">JS</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="two-col">
+      <div id="about" class="hero-card">
+        <h2 class="subtitle">About Me</h2>
+        <p class="muted">I love designing and coding web experiences. I focus on maintainable code and aesthetic designs.</p>
+      </div>
+<div id="contact" class="hero-card contact">
+        <h2 class="subtitle">Contact</h2>
+        <form onsubmit="handleContact(event)">
+          <input id="name" placeholder="Your name" required />
+          <input id="email" type="email" placeholder="Your email" required />
+          <textarea id="message" placeholder="Message" rows="4" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div id="note"></div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Ayesha Siddiqa — Built with lavender vibes.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
